@@ -45,8 +45,9 @@ class Handler:
 
     def start_game(self):
         """ Start Game """
-        print(self.computer.name);
-        print(self.player.name);
+        print(self.computer.get_player_info());
+        print('\n')
+        print(self.player.get_player_info());
 
     @staticmethod
     def quit():

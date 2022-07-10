@@ -10,4 +10,5 @@ class Player:
         self.currentHand = ''
         # location 
 
-    
+    def get_player_info(self):
+        return f"Player name: {self.name}\nPlayer type: {self.player_type}\nTotalwins: {self.totalWins}\nCurrentHand:{self.currentHand}"
